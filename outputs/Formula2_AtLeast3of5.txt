@@ -1,0 +1,615 @@
+==================================================
+ROBDD Output
+==================================================
+
+Variable ordering: ['x1', 'x2', 'x3', 'x4', 'x5']
+Root node index: 202
+Total nodes: 203
+
+Node listing:
+----------------------------------------
+  [0] Terminal: 0 (FALSE)
+  [1] Terminal: 1 (TRUE)
+  [2] Variable: x1
+        Low (0) -> 0
+        High (1) -> 1
+  [3] Variable: x2
+        Low (0) -> 0
+        High (1) -> 1
+  [4] Variable: x1
+        Low (0) -> 0
+        High (1) -> 3
+  [5] Variable: x3
+        Low (0) -> 0
+        High (1) -> 1
+  [6] Variable: x2
+        Low (0) -> 0
+        High (1) -> 5
+  [7] Variable: x1
+        Low (0) -> 0
+        High (1) -> 6
+  [8] Variable: x4
+        Low (0) -> 0
+        High (1) -> 1
+  [9] Variable: x4
+        Low (0) -> 1
+        High (1) -> 0
+  [10] Variable: x3
+        Low (0) -> 0
+        High (1) -> 9
+  [11] Variable: x2
+        Low (0) -> 0
+        High (1) -> 10
+  [12] Variable: x1
+        Low (0) -> 0
+        High (1) -> 11
+  [13] Variable: x5
+        Low (0) -> 0
+        High (1) -> 1
+  [14] Variable: x5
+        Low (0) -> 1
+        High (1) -> 0
+  [15] Variable: x4
+        Low (0) -> 14
+        High (1) -> 0
+  [16] Variable: x3
+        Low (0) -> 0
+        High (1) -> 15
+  [17] Variable: x2
+        Low (0) -> 0
+        High (1) -> 16
+  [18] Variable: x1
+        Low (0) -> 0
+        High (1) -> 17
+  [19] Variable: x3
+        Low (0) -> 1
+        High (1) -> 0
+  [20] Variable: x2
+        Low (0) -> 0
+        High (1) -> 19
+  [21] Variable: x1
+        Low (0) -> 0
+        High (1) -> 20
+  [22] Variable: x3
+        Low (0) -> 8
+        High (1) -> 0
+  [23] Variable: x2
+        Low (0) -> 0
+        High (1) -> 22
+  [24] Variable: x1
+        Low (0) -> 0
+        High (1) -> 23
+  [25] Variable: x4
+        Low (0) -> 0
+        High (1) -> 14
+  [26] Variable: x3
+        Low (0) -> 25
+        High (1) -> 0
+  [27] Variable: x2
+        Low (0) -> 0
+        High (1) -> 26
+  [28] Variable: x1
+        Low (0) -> 0
+        High (1) -> 27
+  [29] Variable: x4
+        Low (0) -> 13
+        High (1) -> 1
+  [30] Variable: x3
+        Low (0) -> 1
+        High (1) -> 29
+  [31] Variable: x2
+        Low (0) -> 1
+        High (1) -> 30
+  [32] Variable: x1
+        Low (0) -> 1
+        High (1) -> 31
+  [33] Variable: x4
+        Low (0) -> 1
+        High (1) -> 13
+  [34] Variable: x3
+        Low (0) -> 33
+        High (1) -> 1
+  [35] Variable: x2
+        Low (0) -> 1
+        High (1) -> 34
+  [36] Variable: x1
+        Low (0) -> 1
+        High (1) -> 35
+  [37] Variable: x3
+        Low (0) -> 33
+        High (1) -> 29
+  [38] Variable: x2
+        Low (0) -> 1
+        High (1) -> 37
+  [39] Variable: x1
+        Low (0) -> 1
+        High (1) -> 38
+  [40] Variable: x3
+        Low (0) -> 25
+        High (1) -> 15
+  [41] Variable: x2
+        Low (0) -> 0
+        High (1) -> 40
+  [42] Variable: x1
+        Low (0) -> 0
+        High (1) -> 41
+  [43] Variable: x3
+        Low (0) -> 9
+        High (1) -> 0
+  [44] Variable: x2
+        Low (0) -> 0
+        High (1) -> 43
+  [45] Variable: x1
+        Low (0) -> 0
+        High (1) -> 44
+  [46] Variable: x4
+        Low (0) -> 13
+        High (1) -> 0
+  [47] Variable: x3
+        Low (0) -> 46
+        High (1) -> 0
+  [48] Variable: x2
+        Low (0) -> 0
+        High (1) -> 47
+  [49] Variable: x1
+        Low (0) -> 0
+        High (1) -> 48
+  [50] Variable: x4
+        Low (0) -> 14
+        High (1) -> 1
+  [51] Variable: x3
+        Low (0) -> 50
+        High (1) -> 1
+  [52] Variable: x2
+        Low (0) -> 1
+        High (1) -> 51
+  [53] Variable: x1
+        Low (0) -> 1
+        High (1) -> 52
+  [54] Variable: x4
+        Low (0) -> 14
+        High (1) -> 13
+  [55] Variable: x3
+        Low (0) -> 54
+        High (1) -> 29
+  [56] Variable: x2
+        Low (0) -> 1
+        High (1) -> 55
+  [57] Variable: x1
+        Low (0) -> 1
+        High (1) -> 56
+  [58] Variable: x4
+        Low (0) -> 13
+        High (1) -> 14
+  [59] Variable: x3
+        Low (0) -> 58
+        High (1) -> 15
+  [60] Variable: x2
+        Low (0) -> 0
+        High (1) -> 59
+  [61] Variable: x1
+        Low (0) -> 0
+        High (1) -> 60
+  [62] Variable: x2
+        Low (0) -> 1
+        High (1) -> 0
+  [63] Variable: x1
+        Low (0) -> 0
+        High (1) -> 62
+  [64] Variable: x2
+        Low (0) -> 5
+        High (1) -> 0
+  [65] Variable: x1
+        Low (0) -> 0
+        High (1) -> 64
+  [66] Variable: x3
+        Low (0) -> 0
+        High (1) -> 8
+  [67] Variable: x2
+        Low (0) -> 66
+        High (1) -> 0
+  [68] Variable: x1
+        Low (0) -> 0
+        High (1) -> 67
+  [69] Variable: x3
+        Low (0) -> 0
+        High (1) -> 25
+  [70] Variable: x2
+        Low (0) -> 69
+        High (1) -> 0
+  [71] Variable: x1
+        Low (0) -> 0
+        High (1) -> 70
+  [72] Variable: x3
+        Low (0) -> 1
+        High (1) -> 33
+  [73] Variable: x2
+        Low (0) -> 72
+        High (1) -> 1
+  [74] Variable: x1
+        Low (0) -> 1
+        High (1) -> 73
+  [75] Variable: x2
+        Low (0) -> 72
+        High (1) -> 55
+  [76] Variable: x1
+        Low (0) -> 1
+        High (1) -> 75
+  [77] Variable: x2
+        Low (0) -> 69
+        High (1) -> 59
+  [78] Variable: x1
+        Low (0) -> 0
+        High (1) -> 77
+  [79] Variable: x2
+        Low (0) -> 10
+        High (1) -> 0
+  [80] Variable: x1
+        Low (0) -> 0
+        High (1) -> 79
+  [81] Variable: x3
+        Low (0) -> 0
+        High (1) -> 46
+  [82] Variable: x2
+        Low (0) -> 81
+        High (1) -> 0
+  [83] Variable: x1
+        Low (0) -> 0
+        High (1) -> 82
+  [84] Variable: x3
+        Low (0) -> 1
+        High (1) -> 50
+  [85] Variable: x2
+        Low (0) -> 84
+        High (1) -> 1
+  [86] Variable: x1
+        Low (0) -> 1
+        High (1) -> 85
+  [87] Variable: x3
+        Low (0) -> 1
+        High (1) -> 54
+  [88] Variable: x2
+        Low (0) -> 87
+        High (1) -> 55
+  [89] Variable: x1
+        Low (0) -> 1
+        High (1) -> 88
+  [90] Variable: x3
+        Low (0) -> 0
+        High (1) -> 58
+  [91] Variable: x2
+        Low (0) -> 90
+        High (1) -> 59
+  [92] Variable: x1
+        Low (0) -> 0
+        High (1) -> 91
+  [93] Variable: x2
+        Low (0) -> 19
+        High (1) -> 0
+  [94] Variable: x1
+        Low (0) -> 0
+        High (1) -> 93
+  [95] Variable: x2
+        Low (0) -> 22
+        High (1) -> 0
+  [96] Variable: x1
+        Low (0) -> 0
+        High (1) -> 95
+  [97] Variable: x4
+        Low (0) -> 0
+        High (1) -> 13
+  [98] Variable: x3
+        Low (0) -> 97
+        High (1) -> 0
+  [99] Variable: x2
+        Low (0) -> 98
+        High (1) -> 0
+  [100] Variable: x1
+        Low (0) -> 0
+        High (1) -> 99
+  [101] Variable: x4
+        Low (0) -> 1
+        High (1) -> 14
+  [102] Variable: x3
+        Low (0) -> 101
+        High (1) -> 1
+  [103] Variable: x2
+        Low (0) -> 102
+        High (1) -> 1
+  [104] Variable: x1
+        Low (0) -> 1
+        High (1) -> 103
+  [105] Variable: x3
+        Low (0) -> 101
+        High (1) -> 54
+  [106] Variable: x2
+        Low (0) -> 105
+        High (1) -> 55
+  [107] Variable: x1
+        Low (0) -> 1
+        High (1) -> 106
+  [108] Variable: x3
+        Low (0) -> 97
+        High (1) -> 58
+  [109] Variable: x2
+        Low (0) -> 108
+        High (1) -> 59
+  [110] Variable: x1
+        Low (0) -> 0
+        High (1) -> 109
+  [111] Variable: x1
+        Low (0) -> 1
+        High (1) -> 0
+  [112] Variable: x1
+        Low (0) -> 3
+        High (1) -> 0
+  [113] Variable: x1
+        Low (0) -> 6
+        High (1) -> 0
+  [114] Variable: x2
+        Low (0) -> 0
+        High (1) -> 66
+  [115] Variable: x1
+        Low (0) -> 114
+        High (1) -> 0
+  [116] Variable: x2
+        Low (0) -> 0
+        High (1) -> 69
+  [117] Variable: x1
+        Low (0) -> 116
+        High (1) -> 0
+  [118] Variable: x2
+        Low (0) -> 1
+        High (1) -> 72
+  [119] Variable: x1
+        Low (0) -> 118
+        High (1) -> 1
+  [120] Variable: x1
+        Low (0) -> 118
+        High (1) -> 106
+  [121] Variable: x1
+        Low (0) -> 116
+        High (1) -> 109
+  [122] Variable: x1
+        Low (0) -> 11
+        High (1) -> 0
+  [123] Variable: x2
+        Low (0) -> 0
+        High (1) -> 81
+  [124] Variable: x1
+        Low (0) -> 123
+        High (1) -> 0
+  [125] Variable: x2
+        Low (0) -> 1
+        High (1) -> 84
+  [126] Variable: x1
+        Low (0) -> 125
+        High (1) -> 1
+  [127] Variable: x2
+        Low (0) -> 1
+        High (1) -> 87
+  [128] Variable: x1
+        Low (0) -> 127
+        High (1) -> 106
+  [129] Variable: x2
+        Low (0) -> 0
+        High (1) -> 90
+  [130] Variable: x1
+        Low (0) -> 129
+        High (1) -> 109
+  [131] Variable: x1
+        Low (0) -> 20
+        High (1) -> 0
+  [132] Variable: x1
+        Low (0) -> 23
+        High (1) -> 0
+  [133] Variable: x2
+        Low (0) -> 0
+        High (1) -> 98
+  [134] Variable: x1
+        Low (0) -> 133
+        High (1) -> 0
+  [135] Variable: x2
+        Low (0) -> 1
+        High (1) -> 102
+  [136] Variable: x1
+        Low (0) -> 135
+        High (1) -> 1
+  [137] Variable: x2
+        Low (0) -> 1
+        High (1) -> 105
+  [138] Variable: x1
+        Low (0) -> 137
+        High (1) -> 106
+  [139] Variable: x2
+        Low (0) -> 0
+        High (1) -> 108
+  [140] Variable: x1
+        Low (0) -> 139
+        High (1) -> 109
+  [141] Variable: x1
+        Low (0) -> 62
+        High (1) -> 0
+  [142] Variable: x1
+        Low (0) -> 64
+        High (1) -> 0
+  [143] Variable: x1
+        Low (0) -> 67
+        High (1) -> 0
+  [144] Variable: x3
+        Low (0) -> 0
+        High (1) -> 97
+  [145] Variable: x2
+        Low (0) -> 144
+        High (1) -> 0
+  [146] Variable: x1
+        Low (0) -> 145
+        High (1) -> 0
+  [147] Variable: x3
+        Low (0) -> 1
+        High (1) -> 101
+  [148] Variable: x2
+        Low (0) -> 147
+        High (1) -> 1
+  [149] Variable: x1
+        Low (0) -> 148
+        High (1) -> 1
+  [150] Variable: x2
+        Low (0) -> 147
+        High (1) -> 105
+  [151] Variable: x1
+        Low (0) -> 150
+        High (1) -> 106
+  [152] Variable: x2
+        Low (0) -> 144
+        High (1) -> 108
+  [153] Variable: x1
+        Low (0) -> 152
+        High (1) -> 109
+  [154] Variable: x1
+        Low (0) -> 0
+        High (1) -> 114
+  [155] Variable: x1
+        Low (0) -> 0
+        High (1) -> 116
+  [156] Variable: x1
+        Low (0) -> 1
+        High (1) -> 118
+  [157] Variable: x3
+        Low (0) -> 54
+        High (1) -> 13
+  [158] Variable: x2
+        Low (0) -> 105
+        High (1) -> 157
+  [159] Variable: x1
+        Low (0) -> 150
+        High (1) -> 158
+  [160] Variable: x3
+        Low (0) -> 58
+        High (1) -> 14
+  [161] Variable: x2
+        Low (0) -> 108
+        High (1) -> 160
+  [162] Variable: x1
+        Low (0) -> 152
+        High (1) -> 161
+  [163] Variable: x1
+        Low (0) -> 0
+        High (1) -> 123
+  [164] Variable: x1
+        Low (0) -> 1
+        High (1) -> 125
+  [165] Variable: x3
+        Low (0) -> 54
+        High (1) -> 97
+  [166] Variable: x2
+        Low (0) -> 105
+        High (1) -> 165
+  [167] Variable: x1
+        Low (0) -> 150
+        High (1) -> 166
+  [168] Variable: x3
+        Low (0) -> 58
+        High (1) -> 101
+  [169] Variable: x2
+        Low (0) -> 108
+        High (1) -> 168
+  [170] Variable: x1
+        Low (0) -> 152
+        High (1) -> 169
+  [171] Variable: x1
+        Low (0) -> 0
+        High (1) -> 133
+  [172] Variable: x1
+        Low (0) -> 1
+        High (1) -> 135
+  [173] Variable: x3
+        Low (0) -> 15
+        High (1) -> 97
+  [174] Variable: x2
+        Low (0) -> 105
+        High (1) -> 173
+  [175] Variable: x1
+        Low (0) -> 150
+        High (1) -> 174
+  [176] Variable: x3
+        Low (0) -> 29
+        High (1) -> 101
+  [177] Variable: x2
+        Low (0) -> 108
+        High (1) -> 176
+  [178] Variable: x1
+        Low (0) -> 152
+        High (1) -> 177
+  [179] Variable: x1
+        Low (0) -> 0
+        High (1) -> 145
+  [180] Variable: x1
+        Low (0) -> 1
+        High (1) -> 148
+  [181] Variable: x3
+        Low (0) -> 101
+        High (1) -> 15
+  [182] Variable: x2
+        Low (0) -> 181
+        High (1) -> 173
+  [183] Variable: x1
+        Low (0) -> 150
+        High (1) -> 182
+  [184] Variable: x3
+        Low (0) -> 97
+        High (1) -> 29
+  [185] Variable: x2
+        Low (0) -> 184
+        High (1) -> 176
+  [186] Variable: x1
+        Low (0) -> 152
+        High (1) -> 185
+  [187] Variable: x2
+        Low (0) -> 0
+        High (1) -> 144
+  [188] Variable: x1
+        Low (0) -> 187
+        High (1) -> 0
+  [189] Variable: x2
+        Low (0) -> 1
+        High (1) -> 147
+  [190] Variable: x1
+        Low (0) -> 189
+        High (1) -> 1
+  [191] Variable: x2
+        Low (0) -> 147
+        High (1) -> 181
+  [192] Variable: x1
+        Low (0) -> 191
+        High (1) -> 182
+  [193] Variable: x2
+        Low (0) -> 144
+        High (1) -> 184
+  [194] Variable: x1
+        Low (0) -> 193
+        High (1) -> 185
+  [195] Variable: x1
+        Low (0) -> 0
+        High (1) -> 187
+  [196] Variable: x1
+        Low (0) -> 1
+        High (1) -> 189
+  [197] Variable: x3
+        Low (0) -> 15
+        High (1) -> 0
+  [198] Variable: x2
+        Low (0) -> 181
+        High (1) -> 197
+  [199] Variable: x1
+        Low (0) -> 191
+        High (1) -> 198
+  [200] Variable: x3
+        Low (0) -> 29
+        High (1) -> 1
+  [201] Variable: x2
+        Low (0) -> 184
+        High (1) -> 200
+  [202] Variable: x1
+        Low (0) -> 193
+        High (1) -> 201

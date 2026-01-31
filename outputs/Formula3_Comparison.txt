@@ -1,0 +1,219 @@
+==================================================
+ROBDD Output
+==================================================
+
+Variable ordering: ['x1', 'y1', 'x2', 'y2', 'x3', 'y3']
+Root node index: 70
+Total nodes: 71
+
+Node listing:
+----------------------------------------
+  [0] Terminal: 0 (FALSE)
+  [1] Terminal: 1 (TRUE)
+  [2] Variable: x1
+        Low (0) -> 0
+        High (1) -> 1
+  [3] Variable: y1
+        Low (0) -> 0
+        High (1) -> 1
+  [4] Variable: y1
+        Low (0) -> 1
+        High (1) -> 0
+  [5] Variable: x1
+        Low (0) -> 0
+        High (1) -> 4
+  [6] Variable: x1
+        Low (0) -> 1
+        High (1) -> 0
+  [7] Variable: x1
+        Low (0) -> 3
+        High (1) -> 0
+  [8] Variable: x1
+        Low (0) -> 1
+        High (1) -> 3
+  [9] Variable: x1
+        Low (0) -> 4
+        High (1) -> 1
+  [10] Variable: x1
+        Low (0) -> 4
+        High (1) -> 3
+  [11] Variable: x1
+        Low (0) -> 3
+        High (1) -> 4
+  [12] Variable: x2
+        Low (0) -> 0
+        High (1) -> 1
+  [13] Variable: y1
+        Low (0) -> 12
+        High (1) -> 0
+  [14] Variable: y1
+        Low (0) -> 0
+        High (1) -> 12
+  [15] Variable: x1
+        Low (0) -> 13
+        High (1) -> 14
+  [16] Variable: y2
+        Low (0) -> 0
+        High (1) -> 1
+  [17] Variable: y2
+        Low (0) -> 1
+        High (1) -> 0
+  [18] Variable: x2
+        Low (0) -> 0
+        High (1) -> 17
+  [19] Variable: y1
+        Low (0) -> 18
+        High (1) -> 0
+  [20] Variable: y1
+        Low (0) -> 0
+        High (1) -> 18
+  [21] Variable: x1
+        Low (0) -> 19
+        High (1) -> 20
+  [22] Variable: x2
+        Low (0) -> 1
+        High (1) -> 16
+  [23] Variable: y1
+        Low (0) -> 22
+        High (1) -> 1
+  [24] Variable: y1
+        Low (0) -> 1
+        High (1) -> 22
+  [25] Variable: x1
+        Low (0) -> 23
+        High (1) -> 24
+  [26] Variable: y1
+        Low (0) -> 0
+        High (1) -> 22
+  [27] Variable: x1
+        Low (0) -> 23
+        High (1) -> 26
+  [28] Variable: y1
+        Low (0) -> 1
+        High (1) -> 18
+  [29] Variable: x1
+        Low (0) -> 19
+        High (1) -> 28
+  [30] Variable: x2
+        Low (0) -> 1
+        High (1) -> 0
+  [31] Variable: x2
+        Low (0) -> 16
+        High (1) -> 0
+  [32] Variable: x2
+        Low (0) -> 17
+        High (1) -> 1
+  [33] Variable: x2
+        Low (0) -> 17
+        High (1) -> 16
+  [34] Variable: x2
+        Low (0) -> 16
+        High (1) -> 17
+  [35] Variable: y1
+        Low (0) -> 33
+        High (1) -> 0
+  [36] Variable: y1
+        Low (0) -> 0
+        High (1) -> 33
+  [37] Variable: x1
+        Low (0) -> 35
+        High (1) -> 36
+  [38] Variable: x3
+        Low (0) -> 0
+        High (1) -> 1
+  [39] Variable: y2
+        Low (0) -> 38
+        High (1) -> 0
+  [40] Variable: y2
+        Low (0) -> 0
+        High (1) -> 38
+  [41] Variable: x2
+        Low (0) -> 39
+        High (1) -> 40
+  [42] Variable: y1
+        Low (0) -> 41
+        High (1) -> 0
+  [43] Variable: y1
+        Low (0) -> 0
+        High (1) -> 41
+  [44] Variable: x1
+        Low (0) -> 42
+        High (1) -> 43
+  [45] Variable: y3
+        Low (0) -> 0
+        High (1) -> 1
+  [46] Variable: y3
+        Low (0) -> 1
+        High (1) -> 0
+  [47] Variable: x3
+        Low (0) -> 0
+        High (1) -> 46
+  [48] Variable: y2
+        Low (0) -> 47
+        High (1) -> 0
+  [49] Variable: y2
+        Low (0) -> 0
+        High (1) -> 47
+  [50] Variable: x2
+        Low (0) -> 48
+        High (1) -> 49
+  [51] Variable: y1
+        Low (0) -> 50
+        High (1) -> 0
+  [52] Variable: y1
+        Low (0) -> 0
+        High (1) -> 50
+  [53] Variable: x1
+        Low (0) -> 51
+        High (1) -> 52
+  [54] Variable: x3
+        Low (0) -> 1
+        High (1) -> 45
+  [55] Variable: y2
+        Low (0) -> 54
+        High (1) -> 1
+  [56] Variable: y2
+        Low (0) -> 1
+        High (1) -> 54
+  [57] Variable: x2
+        Low (0) -> 55
+        High (1) -> 56
+  [58] Variable: y1
+        Low (0) -> 57
+        High (1) -> 1
+  [59] Variable: y1
+        Low (0) -> 1
+        High (1) -> 57
+  [60] Variable: x1
+        Low (0) -> 58
+        High (1) -> 59
+  [61] Variable: y2
+        Low (0) -> 0
+        High (1) -> 54
+  [62] Variable: x2
+        Low (0) -> 55
+        High (1) -> 61
+  [63] Variable: y1
+        Low (0) -> 62
+        High (1) -> 1
+  [64] Variable: y1
+        Low (0) -> 0
+        High (1) -> 62
+  [65] Variable: x1
+        Low (0) -> 63
+        High (1) -> 64
+  [66] Variable: y2
+        Low (0) -> 1
+        High (1) -> 47
+  [67] Variable: x2
+        Low (0) -> 48
+        High (1) -> 66
+  [68] Variable: y1
+        Low (0) -> 67
+        High (1) -> 0
+  [69] Variable: y1
+        Low (0) -> 1
+        High (1) -> 67
+  [70] Variable: x1
+        Low (0) -> 68
+        High (1) -> 69

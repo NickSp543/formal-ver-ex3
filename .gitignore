@@ -1,0 +1,9 @@
+# Python generated files
+__pycache__/
+*.py[cod]
+
+# Mac system files
+.DS_Store
+
+# VS Code settings
+.vscode/
