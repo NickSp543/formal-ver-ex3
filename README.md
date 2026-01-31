@@ -5,6 +5,9 @@ This repository contains the solution for Exercise 3 in the Formal Verification 
 ## Authors
 **Nick 213529522, Amalya Reiss 216229526**
 
+## Repository
+https://github.com/NickSp543/formal-ver-ex3
+
 ## Project Structure
 
 The project is organized as follows:
