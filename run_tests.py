@@ -59,20 +59,20 @@ def main():
     print(f"Output directory: {output_dir}/")
 
     # ============================================================
-    # FORMULA 1: (a AND NOT c) OR (b XOR d)
+    # FORMULA a) (a ∧ ¬c) ∨ (b ⊕ d)
+    # Mixed logic with AND, NOT, OR, XOR
     # ============================================================
     test_formula(
-        name="Formula1_XOR",
+        name="a_MixedLogic",
         formula="(a & ~c) | (b ^ d)",
         variables=["a", "b", "c", "d"],
         output_dir=output_dir
     )
 
     # ============================================================
-    # FORMULA 2: At least 3 of 5 variables are TRUE
-    # This is a threshold/majority function
+    # FORMULA b) Σxi ≥ 3 (at least 3 of 5 variables are TRUE)
+    # Threshold/majority function
     # ============================================================
-    # Build formula: all combinations where 3, 4, or 5 variables are true
     at_least_3 = (
         # Exactly 3 true (C(5,3) = 10 terms)
         "(x1 & x2 & x3 & ~x4 & ~x5) | "
@@ -96,21 +96,16 @@ def main():
     )
 
     test_formula(
-        name="Formula2_AtLeast3of5",
+        name="b_Threshold",
         formula=at_least_3,
         variables=["x1", "x2", "x3", "x4", "x5"],
         output_dir=output_dir
     )
 
     # ============================================================
-    # FORMULA 3: 3-bit comparison (x > y)
-    # x = x1*4 + x2*2 + x3 (x1 is MSB)
-    # y = y1*4 + y2*2 + y3 (y1 is MSB)
+    # FORMULA c) x > y (3-bit comparison with interleaved ordering)
+    # x = x1*4 + x2*2 + x3, y = y1*4 + y2*2 + y3
     # ============================================================
-    # x > y when:
-    #   x1 > y1, OR
-    #   x1 == y1 AND x2 > y2, OR
-    #   x1 == y1 AND x2 == y2 AND x3 > y3
     comparison = (
         "(x1 & ~y1) | "
         "((~(x1 ^ y1)) & x2 & ~y2) | "
@@ -118,45 +113,20 @@ def main():
     )
 
     test_formula(
-        name="Formula3_Comparison",
+        name="c_Comparator",
         formula=comparison,
         variables=["x1", "y1", "x2", "y2", "x3", "y3"],
         output_dir=output_dir
     )
 
     # ============================================================
-    # CUSTOM FORMULA: Your own choice
-    # Transitivity: (A->B) & (B->C) -> (A->C)
-    # This should be a TAUTOLOGY
+    # FORMULA d) Transitivity: (A→B) ∧ (B→C) → (A→C)
+    # This is a TAUTOLOGY - should reduce to single True node
     # ============================================================
     test_formula(
-        name="Custom_Transitivity",
+        name="d_Transitivity",
         formula="((A -> B) & (B -> C)) -> (A -> C)",
         variables=["A", "B", "C"],
-        output_dir=output_dir
-    )
-
-    # ============================================================
-    # SIMPLE TESTS FOR VERIFICATION
-    # ============================================================
-    test_formula(
-        name="Simple_AND",
-        formula="a & b",
-        variables=["a", "b"],
-        output_dir=output_dir
-    )
-
-    test_formula(
-        name="Simple_OR",
-        formula="a | b",
-        variables=["a", "b"],
-        output_dir=output_dir
-    )
-
-    test_formula(
-        name="Simple_XOR",
-        formula="a ^ b",
-        variables=["a", "b"],
         output_dir=output_dir
     )
 

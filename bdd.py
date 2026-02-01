@@ -448,8 +448,8 @@ class BDDManager:
 
             # Style for terminal nodes (boxes)
             f.write("    // Terminal nodes\n")
-            f.write('    0 [label="0", shape=box, style=filled, fillcolor="#ffcccc"];\n')
-            f.write('    1 [label="1", shape=box, style=filled, fillcolor="#ccffcc"];\n\n')
+            f.write('    0 [label="0", shape=box, style=filled, fillcolor="#ff6b6b", fontcolor=white];\n')
+            f.write('    1 [label="1", shape=box, style=filled, fillcolor="#51cf66", fontcolor=white];\n\n')
 
             # Track which nodes we've visited (only draw reachable nodes)
             visited = set()
@@ -464,13 +464,13 @@ class BDDManager:
                     return  # Already drew terminal nodes above
 
                 # Draw this decision node
-                f.write(f'    {idx} [label="{node.variable}"];\n')
+                f.write(f'    {idx} [label="{node.variable}", style=filled, fillcolor="#74c0fc"];\n')
 
                 # Draw edges
-                # Low edge: dashed red line, labeled 0
-                f.write(f'    {idx} -> {node.low_child} [style=dashed, color=red, label="0"];\n')
-                # High edge: solid blue line, labeled 1
-                f.write(f'    {idx} -> {node.high_child} [style=solid, color=blue, label="1"];\n')
+                # Low edge: dashed orange line, labeled 0
+                f.write(f'    {idx} -> {node.low_child} [style=dashed, color="#e67700", penwidth=2, label="0"];\n')
+                # High edge: solid purple line, labeled 1
+                f.write(f'    {idx} -> {node.high_child} [style=solid, color="#7950f2", penwidth=2, label="1"];\n')
 
                 # Recurse to children
                 draw_node(node.low_child)

@@ -1,0 +1,37 @@
+digraph BDD {
+    rankdir=TB;
+    node [shape=circle];
+
+    // Terminal nodes
+    0 [label="0", shape=box, style=filled, fillcolor="#ff6b6b", fontcolor=white];
+    1 [label="1", shape=box, style=filled, fillcolor="#51cf66", fontcolor=white];
+
+    // Decision nodes and edges
+    202 [label="x1", style=filled, fillcolor="#74c0fc"];
+    202 -> 193 [style=dashed, color="#e67700", penwidth=2, label="0"];
+    202 -> 201 [style=solid, color="#7950f2", penwidth=2, label="1"];
+    193 [label="x2", style=filled, fillcolor="#74c0fc"];
+    193 -> 144 [style=dashed, color="#e67700", penwidth=2, label="0"];
+    193 -> 184 [style=solid, color="#7950f2", penwidth=2, label="1"];
+    144 [label="x3", style=filled, fillcolor="#74c0fc"];
+    144 -> 0 [style=dashed, color="#e67700", penwidth=2, label="0"];
+    144 -> 97 [style=solid, color="#7950f2", penwidth=2, label="1"];
+    97 [label="x4", style=filled, fillcolor="#74c0fc"];
+    97 -> 0 [style=dashed, color="#e67700", penwidth=2, label="0"];
+    97 -> 13 [style=solid, color="#7950f2", penwidth=2, label="1"];
+    13 [label="x5", style=filled, fillcolor="#74c0fc"];
+    13 -> 0 [style=dashed, color="#e67700", penwidth=2, label="0"];
+    13 -> 1 [style=solid, color="#7950f2", penwidth=2, label="1"];
+    184 [label="x3", style=filled, fillcolor="#74c0fc"];
+    184 -> 97 [style=dashed, color="#e67700", penwidth=2, label="0"];
+    184 -> 29 [style=solid, color="#7950f2", penwidth=2, label="1"];
+    29 [label="x4", style=filled, fillcolor="#74c0fc"];
+    29 -> 13 [style=dashed, color="#e67700", penwidth=2, label="0"];
+    29 -> 1 [style=solid, color="#7950f2", penwidth=2, label="1"];
+    201 [label="x2", style=filled, fillcolor="#74c0fc"];
+    201 -> 184 [style=dashed, color="#e67700", penwidth=2, label="0"];
+    201 -> 200 [style=solid, color="#7950f2", penwidth=2, label="1"];
+    200 [label="x3", style=filled, fillcolor="#74c0fc"];
+    200 -> 29 [style=dashed, color="#e67700", penwidth=2, label="0"];
+    200 -> 1 [style=solid, color="#7950f2", penwidth=2, label="1"];
+}

@@ -1,0 +1,10 @@
+digraph BDD {
+    rankdir=TB;
+    node [shape=circle];
+
+    // Terminal nodes
+    0 [label="0", shape=box, style=filled, fillcolor="#ff6b6b", fontcolor=white];
+    1 [label="1", shape=box, style=filled, fillcolor="#51cf66", fontcolor=white];
+
+    // Decision nodes and edges
+}
