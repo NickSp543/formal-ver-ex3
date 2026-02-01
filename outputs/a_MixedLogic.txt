@@ -2,9 +2,9 @@
 ROBDD Output
 ==================================================
 
-Variable ordering: ['a', 'b', 'c', 'd']
-Root node index: 24
-Total nodes: 25
+Variable ordering: ['a', 'c', 'b', 'd']
+Root node index: 20
+Total nodes: 21
 
 Node listing:
 ----------------------------------------
@@ -57,25 +57,13 @@ Node listing:
         High (1) -> 3
   [17] Variable: c
         Low (0) -> 0
-        High (1) -> 8
-  [18] Variable: c
-        Low (0) -> 0
-        High (1) -> 7
-  [19] Variable: b
-        Low (0) -> 17
-        High (1) -> 18
-  [20] Variable: a
+        High (1) -> 14
+  [18] Variable: a
         Low (0) -> 14
-        High (1) -> 19
-  [21] Variable: c
+        High (1) -> 17
+  [19] Variable: c
         Low (0) -> 1
-        High (1) -> 7
-  [22] Variable: c
-        Low (0) -> 1
-        High (1) -> 8
-  [23] Variable: b
-        Low (0) -> 21
-        High (1) -> 22
-  [24] Variable: a
+        High (1) -> 15
+  [20] Variable: a
         Low (0) -> 15
-        High (1) -> 23
+        High (1) -> 19

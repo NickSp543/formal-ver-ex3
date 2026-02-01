@@ -61,11 +61,12 @@ def main():
     # ============================================================
     # FORMULA a) (a ∧ ¬c) ∨ (b ⊕ d)
     # Mixed logic with AND, NOT, OR, XOR
+    # Variable order [a, c, b, d] gives optimal reduction
     # ============================================================
     test_formula(
         name="a_MixedLogic",
         formula="(a & ~c) | (b ^ d)",
-        variables=["a", "b", "c", "d"],
+        variables=["a", "c", "b", "d"],
         output_dir=output_dir
     )
 
